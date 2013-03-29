@@ -5,14 +5,14 @@ module.exports =
 
     # Conference info
     conf:
-      name: "Conference name"
-      description: "Conference description"
-      date: "November 15"
-      price: "$100"
-      venue: "Coco Bongo"
-      address: "Boulevard Kukulcan, 30"
-      city: "Cancún"
-      state: "Quintana"
+      name: "The Flat Conference"
+      description: "Self managed companies gathered to discuss the future of organization"
+      date: "April 25"
+      price: "0"
+      venue: "Mutinerie"
+      address: "rue de Meaux, 30"
+      city: "Paris"
+      state: "France"
 
     # Site info
     site:
@@ -26,11 +26,11 @@ module.exports =
     sections: [
       'about'
       'location'
-      'speakers'
-      'schedule'
-      'sponsors'
+      #'speakers'
+      #'schedule'
+      #'sponsors'
       'partners'
-      #'contact'
+      'contact'
     ]
 
     # Labels which you can translate to other languages
@@ -124,9 +124,13 @@ module.exports =
 
     # List of Partners
     partners: [
-      name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
-      url: "http://braziljs.org"
+      name: "Nukomeet"
+      logo: "http://nukomeet.com/assets/images/logo.png"
+      url: "http://nukomeet.com"
+    ,
+      name: "Hensen"
+      logo: "http://hensen.fr/images/logo-hensen.png"
+      url: "http://hensen.fr"
     ]
 
     # Theme path
