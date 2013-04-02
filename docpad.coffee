@@ -17,7 +17,7 @@ module.exports =
     # Site info
     site:
       theme: "yellow-swan"
-      url: "http://confboilerplate.com"
+      url: "http://albanlv.github.com/flat"
       googleanalytics: "UA-33656081-1"
 
     # Active sections on the website
@@ -124,6 +124,10 @@ module.exports =
 
     # List of Partners
     partners: [
+      name: "Open Initiatives"
+      logo: "http://openinitiative.com/img/logo.png"
+      url: "http://openinitiatives.fr"
+    ,
       name: "Nukomeet"
       logo: "http://nukomeet.com/assets/images/logo.png"
       url: "http://nukomeet.com"
