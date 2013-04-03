@@ -126,7 +126,7 @@ module.exports =
     partners: [
       name: "Open Initiatives"
       logo: "http://openinitiative.com/img/logo.png"
-      url: "http://openinitiatives.fr"
+      url: "http://openinitiatives.com"
     ,
       name: "Nukomeet"
       logo: "http://nukomeet.com/assets/images/logo.png"
