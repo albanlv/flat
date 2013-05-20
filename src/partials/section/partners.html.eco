@@ -14,9 +14,9 @@
     <% end %>
       <li class="img-polaroid partner-item">
         <a class="partner-logo partner-link partner-call" href="#">
-          Your<br>
+          Votre<br>
           Logo<br>
-          Here
+          Ici
         </a>
       </li>
     </ul>

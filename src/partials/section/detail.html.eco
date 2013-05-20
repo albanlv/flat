@@ -1,14 +1,15 @@
-<section id="location">
+<section id="detail">
   <div class="page-header">
-    <h2><%= @labels['location'] %></h2>
+    <h2><%= @labels['detail'] %></h2>
   </div>
 
   <div class="row">
     <div class="span6">
       <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Venez &agrave; <a href="http://www.mutinerie.org/" title="Site Officiel de Mutinerie"><i>Mutinerie</i></a>, le 11 juin au
         <span itemprop="streetAddress"><%= @conf.address %></span>
         <span itemprop="addressLocality"><%= @conf.city %></span>,
-        <span itemprop="addressRegion"> <%= @conf.state %></span>
+        <span itemprop="addressRegion"> <%= @conf.state %></span>.
       </p>
     </div>
 

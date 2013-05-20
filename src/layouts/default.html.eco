@@ -38,11 +38,16 @@
     <!-- CONTENT -->
     <div class="row">
       <div class="span6">
-        <%= @partial("section/location.html.eco", @) %>
+        <%= @partial("section/what.html.eco", @) %>
       </div>
 
       <div class="span6">
-        <%= @partial("section/about.html.eco", @) %>
+        <%= @partial("section/detail.html.eco", @) %>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span 12">
       </div>
     </div>
 

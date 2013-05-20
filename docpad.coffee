@@ -5,12 +5,12 @@ module.exports =
 
     # Conference info
     conf:
-      name: "The Flat Conference"
-      description: "Self managed companies gathered to discuss the future of organization"
+      name: "La Flat Conference"
+      description: "Des sociétés auto-gérées rassemblées pour discuter du futur de l'organisation."
       date: "June 25"
       price: "0"
       venue: "Mutinerie"
-      address: "30 rue de Meaux"
+      address: "29 rue de Meaux 75019"
       city: "Paris"
       state: "France"
 
@@ -24,8 +24,8 @@ module.exports =
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
-      'about'
-      'location'
+      'what'
+      'detail'
       #'speakers'
       #'schedule'
       #'sponsors'
@@ -35,12 +35,12 @@ module.exports =
 
     # Labels which you can translate to other languages
     labels:
-      about: "What"
-      location: "Where"
+      what: "Qu'est-ce que c'est ?"
+      detail: "Où et Quand ?"
       speakers: "Speakers"
       schedule: "Schedule"
       sponsors: "Sponsors"
-      partners: "Partners"
+      partners: "Partenaires"
       contact: "Contact"
 
     # The entire schedule

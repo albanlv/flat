@@ -1,0 +1,11 @@
+<section id="what">
+  <div class="page-header">
+    <h2><%= @labels['what'] %></h2>
+  </div>
+
+  <div class="row">
+    <div class="span6">
+    </div>
+  </div>
+</section>
+
