@@ -1,4 +1,11 @@
-<p itemprop="description">An event to gather self-managed companies and discuss about the future of organization.</p>
-<p>It will take place in Paris, on the 25 of April 2013</p>
+<section id="about">
+  <div class="page-header">
+    <h2><%= @labels['about'] %></h2>
+  </div>
 
-
+  <div class="row">
+    <div class="span6">
+      <p>It will take place in Paris, on June 25th, 2013</p>
+    </div>
+  </div>
+</section>

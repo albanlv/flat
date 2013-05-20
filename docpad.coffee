@@ -7,16 +7,16 @@ module.exports =
     conf:
       name: "The Flat Conference"
       description: "Self managed companies gathered to discuss the future of organization"
-      date: "April 25"
+      date: "June 25"
       price: "0"
       venue: "Mutinerie"
-      address: "rue de Meaux, 30"
+      address: "30 rue de Meaux"
       city: "Paris"
       state: "France"
 
     # Site info
     site:
-      theme: "yellow-swan"
+      theme: "flat"
       url: "http://albanlv.github.com/flat"
       googleanalytics: "UA-33656081-1"
 
@@ -35,8 +35,8 @@ module.exports =
 
     # Labels which you can translate to other languages
     labels:
-      about: "About"
-      location: "Location"
+      about: "What"
+      location: "Where"
       speakers: "Speakers"
       schedule: "Schedule"
       sponsors: "Sponsors"
