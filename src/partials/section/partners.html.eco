@@ -13,7 +13,7 @@
       </li>
     <% end %>
       <li class="img-polaroid partner-item">
-        <a class="partner-logo partner-link partner-call" href="#">
+        <a class="partner-logo partner-link partner-call" href="mailto:flat-conference@googlegroups.com">
           Votre<br>
           Logo<br>
           Ici
