@@ -1,0 +1,48 @@
+@import "bootstrap.css";
+
+body {
+  padding-top: 70px;
+}
+
+.location-area {
+  height: 300px;
+}
+
+.submit-group {
+  text-align: center;
+}
+
+.partners-list {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 20px;
+
+  .partner-item {
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    margin: 0 5px 0 5px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+      line-height: 150px;
+
+      &.partner-call {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        text-decoration: none;
+        padding-top: 30px;
+      }
+    }
+  }
+}

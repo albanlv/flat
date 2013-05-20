@@ -1,0 +1,18 @@
+<section id="detail">
+  <div class="page-header">
+    <h2><%= @labels['detail'] %></h2>
+  </div>
+
+  <div class="row">
+    <div class="span6">
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Venez &agrave; <a href="http://www.mutinerie.org/" title="Site Officiel de Mutinerie"><i>Mutinerie</i></a>, le 11 juin au
+        <span itemprop="streetAddress"><%= @conf.address %></span>
+        <span itemprop="addressLocality"><%= @conf.city %></span>,
+        <span itemprop="addressRegion"> <%= @conf.state %></span>.
+      </p>
+    </div>
+
+    <div id="map-canvas" class="span6 location-area" data-address="<%= @conf.address %>"></div>
+  </div>
+</section>
