@@ -1,12 +1,24 @@
 <!-- NAVIGATION -->
-<nav id="nav">
-  <ul class="wrapper">
-    <% for section in @sections : %>
-      <li class="nav-item">
-        <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
-      </li>
-    <% end %>
-  </ul>
-</nav>
+<nav id="nav" class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </a>
 
-<hr>
+      <a href="/" class="brand">Flat Conference</a>
+
+      <div class="main-menu">
+        <ul class="nav" id="main-menu-left">
+          <% for section in @sections : %>
+            <li>
+              <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
