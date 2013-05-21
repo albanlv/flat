@@ -125,15 +125,15 @@ module.exports =
     # List of Partners
     partners: [
       name: "Open Initiatives"
-      logo: "http://openinitiative.com/img/logo.png"
+      logo: "open-initiatives.png"
       url: "http://openinitiative.com"
     ,
       name: "Nukomeet"
-      logo: "http://nukomeet.com/assets/images/logo.png"
+      logo: "nukomeet.png"
       url: "http://nukomeet.com"
     ,
       name: "Hensen"
-      logo: "http://hensen.fr/images/logo-hensen.png"
+      logo: "hensen.png"
       url: "http://hensen.fr"
     ]
 
