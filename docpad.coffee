@@ -27,7 +27,7 @@ module.exports =
       'what'
       'detail'
       #'speakers'
-      #'schedule'
+      'schedule'
       #'sponsors'
       'partners'
       'contact'
@@ -38,7 +38,7 @@ module.exports =
       what: "Qu'est-ce que c'est ?"
       detail: "Où et Quand ?"
       speakers: "Speakers"
-      schedule: "Schedule"
+      schedule: "Programme"
       sponsors: "Sponsors"
       partners: "Partenaires"
       contact: "Contact"
@@ -125,15 +125,15 @@ module.exports =
     # List of Partners
     partners: [
       name: "Open Initiatives"
-      logo: "http://openinitiative.com/img/logo.png"
+      logo: "open-initiatives.png"
       url: "http://openinitiative.com"
     ,
       name: "Nukomeet"
-      logo: "http://nukomeet.com/assets/images/logo.png"
+      logo: "nukomeet.png"
       url: "http://nukomeet.com"
     ,
       name: "Hensen"
-      logo: "http://hensen.fr/images/logo-hensen.png"
+      logo: "hensen.png"
       url: "http://hensen.fr"
     ]
 
