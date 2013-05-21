@@ -27,7 +27,7 @@ module.exports =
       'what'
       'detail'
       #'speakers'
-      #'schedule'
+      'schedule'
       #'sponsors'
       'partners'
       'contact'
@@ -38,7 +38,7 @@ module.exports =
       what: "Qu'est-ce que c'est ?"
       detail: "Où et Quand ?"
       speakers: "Speakers"
-      schedule: "Schedule"
+      schedule: "Programme"
       sponsors: "Sponsors"
       partners: "Partenaires"
       contact: "Contact"
