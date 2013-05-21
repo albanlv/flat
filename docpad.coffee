@@ -1,12 +1,13 @@
 module.exports =
+  outPath: ''
 
   # These are variables will be accessible via our templates
   templateData:
 
     # Conference info
     conf:
-      name: "La Flat Conference"
-      description: "Des sociétés auto-gérées rassemblées pour discuter du futur de l'organisation."
+      name: "Flat Conference"
+      description: "Des entreprises auto-gérées rassemblées pour discuter du futur de l'organisation."
       date: "June 25"
       price: "0"
       venue: "Mutinerie"
