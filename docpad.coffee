@@ -133,6 +133,10 @@ module.exports =
       logo: "nukomeet.png"
       url: "http://nukomeet.com"
     ,
+      name: "Mutinerie"
+      logo: "mutinerie.png"
+      url: "http://www.mutinerie.org"
+    ,
       name: "Hensen"
       logo: "hensen.png"
       url: "http://hensen.fr"
