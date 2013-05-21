@@ -4,7 +4,7 @@
   </div>
 
   <div class="row">
-    <div class="span6">
+    <div class="span12">
       <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         Venez &agrave; <a href="http://www.mutinerie.org/" title="Site Officiel de Mutinerie"><i>Mutinerie</i></a>, le 11 juin au
         <span itemprop="streetAddress"><%= @conf.address %></span>
@@ -13,6 +13,6 @@
       </p>
     </div>
 
-    <div id="map-canvas" class="span6 location-area" data-address="<%= @conf.address %>"></div>
+    <div id="map-canvas" class="span12 location-area" data-address="<%= @conf.address %>"></div>
   </div>
 </section>
