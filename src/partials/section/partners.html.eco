@@ -6,14 +6,14 @@
   <div class="row">
     <ul class="partners-list">
     <% for partner in @partners: %>
-      <li class="img-polaroid partner-item" itemscope itemtype="http://schema.org/Organization">
+      <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
         <a href="<%= partner.url %>" class="partner-logo partner-link" itemprop="url">
-          <img src="<%= partner.logo %>" alt="<%= partner.name %>" class="photo" itemprop="image">
+          <img src="<%= "#{@getTheme()}/img/partners/#{partner.logo}" %>" alt="<%= partner.name %>" class="photo" itemprop="image">
         </a>
       </li>
     <% end %>
       <li class="img-polaroid partner-item">
-        <a class="partner-logo partner-link partner-call" href="#">
+        <a class="partner-logo partner-link partner-call" href="mailto:flat-conference@googlegroups.com">
           Votre<br>
           Logo<br>
           Ici
