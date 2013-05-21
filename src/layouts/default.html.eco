@@ -36,32 +36,7 @@
     <%-@partial('header.html.eco', @)%>
 
     <!-- CONTENT -->
-    <div class="row">
-      <div class="span6">
-        <%= @partial("section/what.html.eco", @) %>
-      </div>
-
-      <div class="span6">
-        <%= @partial("section/detail.html.eco", @) %>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span 12">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span 12">
-        <%= @partial("section/partners.html.eco", @) %>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span 12">
-        <%= @partial("section/contact.html.eco", @) %>
-      </div>
-    </div>
+    <%- @content %>
     <!-- / CONTENT -->
 
     <!-- FOOTER -->
