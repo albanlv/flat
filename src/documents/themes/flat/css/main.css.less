@@ -57,8 +57,32 @@
   }
 }
 
+.speakers-list {
+  list-style-type: none;
+
+  .speakers-item {
+    margin: 20px 0;
+
+    .photo {
+      border-radius: 200px;
+    }
+  }
+}
+
 @media (min-width: 1200px) {
   body {
     padding-top: 70px;
   }
+}
+
+@media (max-width: 1200px) {
+  .speakers-item {
+    text-align: justify;
+
+    .speaker-photo, .photo {
+      display: block;
+      margin: auto;
+    }
+  }
+
 }

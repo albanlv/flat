@@ -1,6 +1,4 @@
 module.exports =
-  outPath: ''
-
   # These are variables will be accessible via our templates
   templateData:
 
@@ -27,7 +25,7 @@ module.exports =
     sections: [
       'what'
       'detail'
-      #'speakers'
+      'speakers'
       'schedule'
       #'sponsors'
       'partners'
@@ -38,88 +36,38 @@ module.exports =
     labels:
       what: "Qu'est-ce que c'est ?"
       detail: "Où et Quand ?"
-      speakers: "Speakers"
+      speakers: "Intervenants"
       schedule: "Programme"
       sponsors: "Sponsors"
       partners: "Partenaires"
       contact: "Contact"
 
-    # The entire schedule
-    schedule: [
-      name: "Check-in / Breakfast"
-      time: "9h00"
+    speakers: [
+      name: "Éric Laurent"
+      photo: "eric.jpg"
+      bio: "Eric Laurent mène actuellement un projet d'horizontalisation opérationnelle de la direction de la sureté. Sans changer le modèle d'organisation et la hiérarchie sur le papier, il met en place un cadre d'interaction pour le quotidien opérationnel basé sur la transparence, la transversalité et l'immédiateté en s'appuyant sur une plateforme collaborative."
+      company: "La Poste"
     ,
-      name: "Linus Torvalds"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Linux Foundation"
-      twitter: "linus"
-      presentation:
-        title: "Digging into a Linux Kernel"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
+      name: "Christophe Baillon"
+      photo: "christophe.jpg"
+      bio: "Sogilis est une entreprise du logiciel sur mesure créée en 2008 qui met en place un mode de management totalement atypique, cellulaire. L'entreprise dispose de cellules opérationnelles, qui sont des équipes autonomes et autogérées, d'un maximum de 7 personnes. Une cellule est un groupe d'individus qui se fédèrent autour d'une technologie, d'un domaine métier, d'un centre d'intérêt qui passionne chacun de ses membres."
+      company: "Sogilis"
     ,
-      name: "Bill Gates"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Microsoft"
-      twitter: "billy95"
-      presentation:
-        title: "Introducing Windows 12"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "11h00"
+      name: "Jean-Noel Chaintreuil"
+      photo: "jean-noel.jpg"
+      bio: "Digidust est une agence digitale qui fonctionne en mode distribué. C’est une filiale d’un groupe qui compte aujourd’hui près de 60 collaborateurs, spécialistes en stratégies mobiles et social media, répartis entre l’Europe et les Etats-Unis."
+      company: "Digidust"
     ,
-      name: "Lunch"
-      time: "12h00"
-    ,
-      name: "Chuck Norris"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
-      twitter: "littlechuck"
-      presentation:
-        title: "How to kill a elephant with one finger"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
-    ,
-      name: "Steve Jobs"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      twitter: "stevie"
-      presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
-    ,
-      name: "Coffee-break"
-      time: "15h00"
-    ,
-      name: "Mark Zuckerberg"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Facebook"
-      twitter: "zuck"
-      presentation:
-        title: "Revealing Facebook Secrets"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "16h00"
-    ,
-      name: "Steve Wozniak"
-      photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "17h00"
+      name: "Alanna Krause"
+      photo: "alanna.jpg"
+      bio: "Loomio est développé par une équipe située à Wellington en Nouvelle Zélande, et par un réseau encore plus large d'amis et de supporters de par le monde. L'équipe derrière Loomio souhaite proposer un nouvel outil web pour mener des discussions concises et concentrées auxquelles tous les membres d'une équipe peuvent prendre part. Avec le processus de collaboration adéquat, les groupes génèrent de meilleures idées, décisions et actions qu'un unique individu l'aurait fait seul."
+      company: "Loomio"
     ]
 
     # List of Sponsors
     sponsors: [
       name: "Eventick"
-      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
+      logo: ""
       url: "http://eventick.com.br"
     ]
 
