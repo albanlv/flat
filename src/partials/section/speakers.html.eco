@@ -17,7 +17,7 @@
           <% end %>
 
           <div class="span10">
-            <h3 class="speakers-name"><%= speaker.name %></h3>
+            <h3 class="speakers-name"><%= speaker.name %>, <%= speaker.company %></h3>
             <p class="speakers-bio"><%= speaker.bio %></p>
           </div>
         </div>
