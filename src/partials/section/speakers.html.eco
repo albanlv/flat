@@ -1,25 +1,28 @@
-<h2 class="section-title"><%= @labels['speakers'] %></h2>
+<section id="speakers">
+  <div class="page-header">
+    <h2><%= @labels['speakers'] %></h2>
+  </div>
 
-<ul class="speakers-list">
-<% for speaker in @schedule: %>
-  <% if speaker.presentation: %>
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      <% if speaker.photo: %>
-        <span class="speaker-photo">
-          <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
-        </span>
-      <% end %>
+  <div class="row">
+    <ul class="speakers-list">
+    <% for speaker in @speakers: %>
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <div class="row">
+          <% if speaker.photo: %>
+            <div class="span2">
+              <span class="speaker-photo">
+                <img class="photo" src="<%= "#{@getTheme()}/img/speakers/#{speaker.photo}" %>" alt="<%= speaker.name %>" itemprop="image">
+              </span>
+            </div>
+          <% end %>
 
-      <h3 class="speech-title">
-        <% if speaker.presentation.time: %>
-          <span class="speech-time"><%= speaker.presentation.time %></span>
-        <% end %>
-          <span> <%= speaker.presentation.title %></span>
-      </h3>
-
-      <h3 class="speakers-name"><%= speaker.name %> <a href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>">@<%= speaker.twitter %></a></h3>
-      <p class="speakers-bio"><%= speaker.bio %></p>
-    </li>
-  <% end %>
-<% end %>
-</ul>
+          <div class="span10">
+            <h3 class="speakers-name"><%= speaker.name %>, <%= speaker.company %></h3>
+            <p class="speakers-bio"><%= speaker.bio %></p>
+          </div>
+        </div>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+</section>

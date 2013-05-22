@@ -1,8 +1,5 @@
-@import "bootstrap.css";
-
-body {
-  padding-top: 70px;
-}
+@import "bootstrap.min.css";
+@import "bootstrap-responsive.min.css";
 
 .location-area {
   height: 300px;
@@ -40,6 +37,11 @@ body {
       margin-right: 0;
     }
 
+    img {
+      max-height: 150px;
+      max-width: 150px;
+    }
+
     a {
       display: block;
       line-height: 150px;
@@ -53,4 +55,34 @@ body {
       }
     }
   }
+}
+
+.speakers-list {
+  list-style-type: none;
+
+  .speakers-item {
+    margin: 20px 0;
+
+    .photo {
+      border-radius: 200px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .speakers-item {
+    text-align: justify;
+
+    .speaker-photo, .photo {
+      display: block;
+      margin: auto;
+    }
+  }
+
 }
