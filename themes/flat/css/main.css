@@ -1,0 +1,72 @@
+@import "bootstrap.min.css";
+
+@import "bootstrap-responsive.min.css";
+.location-area {
+  height: 300px;
+}
+.submit-group {
+  text-align: center;
+}
+.navbar .brand {
+  line-height: 19px;
+}
+.page-header {
+  margin-bottom: 0;
+}
+.partners-list {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 20px;
+}
+.partners-list .partner-item {
+  float: left;
+  height: 150px;
+  width: 150px;
+  padding: 0;
+  margin: 0 10px 0 10px;
+}
+.partners-list .partner-item:first-child {
+  margin-left: 0;
+}
+.partners-list .partner-item:last-child {
+  margin-right: 0;
+}
+.partners-list .partner-item img {
+  max-height: 150px;
+  max-width: 150px;
+}
+.partners-list .partner-item a {
+  display: block;
+  line-height: 150px;
+}
+.partners-list .partner-item a.partner-call {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  padding-top: 30px;
+}
+.speakers-list {
+  list-style-type: none;
+}
+.speakers-list .speakers-item {
+  margin: 20px 0;
+}
+.speakers-list .speakers-item .photo {
+  border-radius: 200px;
+}
+@media (min-width: 1200px) {
+  body {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 1200px) {
+  .speakers-item {
+    text-align: justify;
+  }
+  .speakers-item .speaker-photo,
+  .speakers-item .photo {
+    display: block;
+    margin: auto;
+  }
+}
