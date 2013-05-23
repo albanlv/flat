@@ -23,8 +23,8 @@ module.exports =
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
-      'what'
       'detail'
+      'what'
       'speakers'
       'schedule'
       #'sponsors'
@@ -35,7 +35,7 @@ module.exports =
     # Labels which you can translate to other languages
     labels:
       what: "Qu'est-ce que c'est ?"
-      detail: "Où et Quand ?"
+      detail: "Où, Quand et Combien ?"
       speakers: "Intervenants"
       schedule: "Programme"
       sponsors: "Sponsors"
