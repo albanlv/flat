@@ -23,8 +23,8 @@ module.exports =
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
-      'what'
       'detail'
+      'what'
       'speakers'
       'schedule'
       #'sponsors'
@@ -35,7 +35,7 @@ module.exports =
     # Labels which you can translate to other languages
     labels:
       what: "Qu'est-ce que c'est ?"
-      detail: "Où et Quand ?"
+      detail: "Où, Quand et Combien ?"
       speakers: "Intervenants"
       schedule: "Programme"
       sponsors: "Sponsors"
@@ -45,7 +45,7 @@ module.exports =
     speakers: [
       name: "Éric Laurent"
       photo: "eric.jpg"
-      bio: "Eric Laurent mène actuellement un projet d'horizontalisation opérationnelle de la direction de la sureté. Sans changer le modèle d'organisation et la hiérarchie sur le papier, il met en place un cadre d'interaction pour le quotidien opérationnel basé sur la transparence, la transversalité et l'immédiateté en s'appuyant sur une plateforme collaborative."
+      bio: "De guichetier à collaborateur du Siège de la Poste, Eric Laurent a été l'année dernière à l'initiative d'un projet de plateforme collaborative visant à apporter transparence, transversalité et immédiateté dans le quotidien opérationnel des acteurs d'un projet de la Direction de la Sureté. Sa mission aujourd'hui est de l'animer et de l'étendre à l'ensemble des collaborateurs de la Direction de la Sureté."
       company: "La Poste"
     ,
       name: "Christophe Baillon"
@@ -55,11 +55,11 @@ module.exports =
     ,
       name: "Jean-Noel Chaintreuil"
       photo: "jean-noel.jpg"
-      bio: "Digidust est une agence digitale qui fonctionne en mode distribué. C’est une filiale d’un groupe qui compte aujourd’hui près de 60 collaborateurs, spécialistes en stratégies mobiles et social media, répartis entre l’Europe et les Etats-Unis."
+      bio: "Ancien d'Air Liquide, chez qui il a contribué à déployer le Réseau Social d'Entreprise au travers de groupes de pratiques et via la mise en place d’un programme de Knowledge Management, Jean-Noel est aujourd'hui à la tête de Digidust, une agence digitale spécialisée en stratégies mobiles et social media. Il s'appuie sur les leviers de la confiance et de l'autonomie pour fédérer ses 60 collaborateurs répartis entre l’Europe et les Etats-Unis autour d'objectifs communs."
       company: "Digidust"
     ,
-      name: "Alanna Krause"
-      photo: "alanna.jpg"
+      name: "Ben Knight"
+      photo: "ben.jpg"
       bio: "Loomio est développé par une équipe située à Wellington en Nouvelle Zélande, et par un réseau encore plus large d'amis et de supporters de par le monde. L'équipe derrière Loomio souhaite proposer un nouvel outil web pour mener des discussions concises et concentrées auxquelles tous les membres d'une équipe peuvent prendre part. Avec le processus de collaboration adéquat, les groupes génèrent de meilleures idées, décisions et actions qu'un unique individu l'aurait fait seul."
       company: "Loomio"
     ]
