@@ -5,7 +5,7 @@ module.exports =
     # Conference info
     conf:
       name: "Flat Conference"
-      description: "Des entreprises auto-gérées rassemblées pour discuter du futur de l'organisation."
+      description: "Vers des mod&egrave;les d'entreprises horizontaux ?"
       date: "June 25"
       price: "0"
       venue: "Mutinerie"
@@ -23,11 +23,11 @@ module.exports =
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
-      'detail'
       'what'
       'speakers'
       'schedule'
       #'sponsors'
+      'detail'
       'partners'
       'contact'
     ]
@@ -39,7 +39,7 @@ module.exports =
       speakers: "Intervenants"
       schedule: "Programme"
       sponsors: "Sponsors"
-      partners: "Partenaires"
+      partners: "Organisateurs"
       contact: "Contact"
 
     speakers: [
